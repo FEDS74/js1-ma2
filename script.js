@@ -32,3 +32,4 @@ this.classList.remove("hover");
 });
 
 // question and answer 6
+const liTags = document.querySelector("li");
