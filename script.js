@@ -22,14 +22,14 @@ inputFirstName.addEventListener("keyup", function(event){
 //question and answer 4
 const mouseoverButton = document.querySelector("button");
 mouseoverButton.addEventListener("mouseover", function() {
-  this.classList.add("hover");
+  mouseoverButton.classList.add("hover");
 });
 
 //question and answer 5
 const mouseoutButton = document.querySelector("[data-animal]");
 mouseoutButton.addEventListener("mouseout", function() {
-this.classList.remove("hover");
+  mouseoutButton.classList.remove("hover");
 });
 
 // question and answer 6
-const liTags = document.querySelector("li");
+const liTags = document.querySelectorAll("li");
